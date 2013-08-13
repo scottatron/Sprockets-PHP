@@ -185,7 +185,7 @@ class File
 					$last = substr($next, -1);
 				}
 
-				$method = pascalize($function) . 'Directive';
+				$method = \str\pascalize($function) . 'Directive';
 
 				if (!method_exists($this, $method))
 					throw new \RuntimeException('Cannot parse file ' . $this->path . ', unknow directive ' . $function);

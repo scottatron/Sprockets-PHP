@@ -3,8 +3,48 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "778a6916528219b4fa54a037adf550b5",
+    "hash": "514321f05f7a6e55f4ac2b1b1aea4264",
     "packages": [
+        {
+            "name": "battlesuit/str",
+            "version": "dev-composer",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/scottatron/str.git",
+                "reference": "d6a38441aefabf9d9f5ffca03046da102397e36e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/scottatron/str/zipball/d6a38441aefabf9d9f5ffca03046da102397e36e",
+                "reference": "d6a38441aefabf9d9f5ffca03046da102397e36e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/str/object.php",
+                    "lib/str/object_methods.php"
+                ],
+                "files": [
+                    "lib/str.php"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Scott Arthur",
+                    "email": "scott@scottatron.com"
+                },
+                {
+                    "name": "Thomas Monzel",
+                    "email": "tom.monzel@gmail.com"
+                }
+            ],
+            "description": "\"String Object for PHP 5.3+ (camelization, pascalization, humanization, lowerscore)\"",
+            "support": {
+                "source": "https://github.com/scottatron/str/tree/composer"
+            },
+            "time": "2013-08-13 05:12:33"
+        },
         {
             "name": "coffeescript/coffeescript",
             "version": "1.3.1",
@@ -138,16 +178,16 @@
         },
         {
             "name": "richthegeek/phpsass",
-            "version": "dev-master",
+            "version": "2012-06-07",
             "source": {
                 "type": "git",
                 "url": "https://github.com/richthegeek/phpsass.git",
-                "reference": "6c6f8dd5d761b1e8e98c425c36abe4de315eb842"
+                "reference": "2012-06-07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/richthegeek/phpsass/zipball/6c6f8dd5d761b1e8e98c425c36abe4de315eb842",
-                "reference": "6c6f8dd5d761b1e8e98c425c36abe4de315eb842",
+                "url": "https://api.github.com/repos/richthegeek/phpsass/zipball/2012-06-07",
+                "reference": "2012-06-07",
                 "shasum": ""
             },
             "type": "library",
@@ -196,7 +236,7 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "richthegeek/phpsass": 20
+        "battlesuit/str": 20
     },
     "platform": [
 
